@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --blue-1: #344D7C;
+    --blue-2: #22558A;
+    --blue-3: #0275b8;
+    --blue-4: #0B9BE3;
+    --blue-5: #6CB4E9;
+    --green-1: #4DB538;
+    --green-2: #477316;
+    --green-3: #00A886;
+    --red-1: #B23737;
+    --grey-text-1: #545454;
+    --grey-text-2: #bbb;
+    --dark-blue-1: #0039A4;
+    --lime-1: #36B100;
+    --button-grey-1: #8998a6;
+    --light-blue-2: #F7FCFF;
+    --light-blue-3: #E0F5FF;
+    --med-blue-1: #B6D9F0;
+    --lavender-1: #BE6DCF;
+    --golden-1: #ffd600;
+    --jam-blue-1: #55c7de;
+}
+html {
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--blue-2);
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.nav {
+    font-size: 2rem;
+    font-weight: 600;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 2rem;
+    }
+}
