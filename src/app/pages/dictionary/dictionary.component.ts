@@ -1,13 +1,12 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'la-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'la-dictionary',
+  templateUrl: './dictionary.component.html',
+  styleUrls: ['./dictionary.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
-
 })
-export class HomeComponent implements OnInit {
+export class DictionaryComponent implements OnInit {
 
   constructor() { }
 
