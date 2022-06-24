@@ -13,7 +13,9 @@
     <div class="words">
         <h3 class="words__title">All Words/Phrases</h3>
         <ul class="words__list">
-
+            <li class="words__item" *ngFor="let item of words$ | async; trackBy: trackBy">
+                {{ item.word}} - {{ item.meaning}}
+            </li>
         </ul>
     </div>
 </div>
